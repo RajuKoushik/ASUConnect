@@ -2,6 +2,11 @@ const express = require('express');
 
 const app = express();
 
+const connectDB = require('./config/db');
+
+//conenct database
+connectDB();
+
 app.get('/', (req, res) => res.send('API Running'));
 
 const PORT = process.env.PORT || 5000;
