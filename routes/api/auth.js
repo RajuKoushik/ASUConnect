@@ -9,8 +9,6 @@ const User = require('../../models/User');
 const jwt = require('jsonwebtoken');
 const config = require('config');
 
-
-
 // @route   GET api/auth
 // @desc    test route
 // @access  Public
